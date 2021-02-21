@@ -1,7 +1,10 @@
-namespace DIO.Bank.Enum
+namespace DIO.Bank
 {
-    public class TipoConta
+    public enum TipoConta
     {
-        
+        PessoaFisica = 1,
+        PessoaJuridica = 2,
+        //Pra que serve o enum?
+          //Para travar as opções do user
     }
 }
